@@ -10,3 +10,49 @@ h1{
     text-shadow: 3px 3px 3px black;
 }
 
+.container{
+    margin-top: 30px;
+    border: 3px solid white;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: white;
+    text-shadow:1px 2px 3px gray;
+}
+
+.container label{
+    font-size: 25px;
+}
+
+.container input, 
+.container textarea{
+    border: 1px solid gray;
+}
+
+.container input[type*"submit"]{
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+p.comment-obligatoire{
+    color: blue;
+    font-size: 25px;
+    font-style: italic;
+}
+
+p.comment.error{
+    color: red;
+    font-size: 25px;
+    font-style: italic;
+}
+
+p.comment.success{
+    color: green;
+    font-size: 25px;
+    font-style: italic;
+}
+
+span{
+    color: blue;
+    margin: 5px;
+}
